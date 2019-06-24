@@ -1,0 +1,142 @@
+*{
+    font-family: 'Playfair Display', sans-serif;
+    color: rgba(98, 98, 98, 255);
+    max-width: 1200px;
+    }
+
+header {
+    margin-top: 77px;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 70px;
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.list {
+    display: inline-block;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(3,169,244,1);
+}
+
+main {
+    margin-left: 148px;
+    box-align: center;
+}
+
+.signP, .signL {
+    margin-top: 32px;
+    font-family: "Ubuntu-Light";
+    color: rgba(180, 173, 158, 255);
+    font-size: 14px;
+    text-align: left;
+    }
+    
+.boxOne {
+    margin-top: 103px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    overflow:hidden;
+   }
+
+.boxTwo {
+    margin-top: 103px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin-left: 60px;
+    overflow:hidden;
+   }
+
+.boxThree {
+    margin-top: 130px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    overflow:hidden;
+   }
+
+.boxFour {
+    margin-top: 130px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin-left:60px;
+    overflow:hidden;
+    }
+
+.boxFive {
+    margin-top: 136px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    overflow:hidden;
+    }
+
+.boxSix {
+    margin-top: 136px;
+    display: inline-block;
+    width: 420px;
+    height: 478px;
+    margin-left:60px;
+    overflow:hidden;
+    }
+
+.about {
+    width: 414px;
+    height: 63px;
+    line-height: 22px;
+    margin-top: 34px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.title {
+    margin-top: 28px;
+    text-decoration: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+.signL {
+    width: 63px;
+    height: 11px;
+}
+
+.signP {
+    width: 85px;
+    height: 11px;
+}
+
+.card {
+    width: 420px;
+    height: 478px;
+    overflow:hidden;
+}
+
+
+button {
+    margin-top: 52px;
+    margin-bottom: 70px;
+    margin-left: 507px;
+    width: 164px;
+    height: 60px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
