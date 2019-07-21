@@ -1,15 +1,25 @@
 *{font-family: 'Open Sans', sans-serif;}
+.clearfix::after{content: "";display: table;clear: both;}
 .wrapper {
     width: 1600px;
     margin: 0 auto;
     background-color: #e9f0fd;
 }
 
-
+/* HEADER */
 header {
+    width: 1600px;
     height: 91px;
-    width: 100%;
     background-color:#ffffff;
+
+}
+nav {
+    height: 91px;
+    text-align: center;
+    width: 1600px;
+    background-color:#ffffff;
+    z-index: 10;
+    position: fixed;
 }
 .logo {
     height: 21px;
@@ -17,10 +27,6 @@ header {
     display: inline-block;
     margin-top:38px;
     margin-right: 600px;
-}
-.navigation {
-    text-align: center;
-    width: 100%;
 }
 .nav_menu {
     display: inline-block;
@@ -38,7 +44,7 @@ header {
 }
 .nav_menu:hover,.nav_menu:focus{color: #1abc9c;}.nav_menu:checked{color:#0f0101;}
 
-
+/* MAIN */
 .tours {
     height: 600px;
     width: 100%;
@@ -120,9 +126,9 @@ button:hover{background-color: #1abc9c;}.left,.right{display: inline-block;}
     display: inline-block;
     overflow: hidden;
     margin-right: 30px;
-    
-
+    position: relative;
 }
+.card:last-child{margin-right: 0px;}
 
 .image-item {
     width: 255px;
@@ -132,7 +138,7 @@ button:hover{background-color: #1abc9c;}.left,.right{display: inline-block;}
 .image{
     width: 255px;
     height: 281px;
-  /* position: absolute;  */
+  position: absolute; 
    }
 
 
@@ -177,6 +183,7 @@ button:hover{background-color: #1abc9c;}.left,.right{display: inline-block;}
     text-transform: uppercase;
     text-align: left;
     vertical-align: middle;
+    position: absolute; 
 }
 .price {
     height: 40px;
@@ -188,32 +195,30 @@ button:hover{background-color: #1abc9c;}.left,.right{display: inline-block;}
     float: right;
     outline: none;
     border: none;
+    position: absolute; 
     } 
 
 
 .card:hover .price{background-color: #7fd9c7;}.card:hover .name{background-color: #1abc9c;}.card:hover .overlay{display: block;}
 
 
+
+/* FOOTER */
 footer{
     background-color: #323232;
-    width: 1600px;
-    height: 88px;
-    position: absolute;
-}
-.sign {
-    color: rgba(254, 254, 254, 255);
-    font-size: 16px;
-}
+     width: 100%;
+} 
 .website{
     text-decoration: none;
     color: #45b8a3;
 }
-.span-cover{
+.sign-cover{
     width: 450px;
-    height: 17px;
-    position: relative; 
-    left: 50%;
-    top: 50%;
-    transform: translate( -50%, -50%); 
+    height: 88px;
+    color: rgb(254, 254, 254);
+    font-size: 16px;
+    line-height: 88px;
+    text-align: center;
+    margin: auto auto;
 }
 
