@@ -1,7 +1,9 @@
 *{font-family: 'Roboto', sans-serif;box-sizing: border-box;
     font-size: 0;font-weight: inherit;}
-.wrapper {
-    width: 1200px;
+    html {
+      scroll-behavior: smooth;
+      }.wrapper {
+    width: 1220px;
     height: 1920px;
     margin: 0 auto;
     background-color:#fff;}
@@ -14,9 +16,11 @@ header {
     padding-bottom: 50px;
     text-align: center;
     z-index: 10;
-    position: fixed;}
+    /* position: fixed; */
+  }
 nav {
         display: flex;
+        padding-bottom: 210px;
         justify-content: space-between;}
 
 .logo {
@@ -40,14 +44,17 @@ nav {
     }
     .nav_menu:after {
         content: "";
-        display: none;
+        display: block;
+        opacity: 0;
         width: 100%;
         height: 3px;
         background: #f38181;
         margin-top: 14px;
+        transition: opacity .5s;
+        
       }
       .nav_menu:hover::after {
-        display: block;;
+        opacity: 1;
  
       }
 .nav_menu:hover,.nav_menu:focus{color: #f38181;}.nav_menu:checked{color:rgb(149, 225, 211);}
@@ -56,8 +63,6 @@ nav {
 
 
 
-  
- 
   .subtitle {
     font-size: 24px;
     color: #333333;
@@ -73,6 +78,7 @@ nav {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    
     margin-top: 18px;  }
   
   .title:after {
@@ -83,17 +89,95 @@ nav {
     height: 3px;
     background: #f38181;   }
 
-.description {
+p {
     color: #a0a0a0;
-    font-size: 15px;
+    font-size: 14.5px;
     line-height: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;}
 
 
+h4 {
+  height: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+color: #333;
+text-align: center;
+}
 
 
+/* Main: section "Service" */
+.name-service {
+  color: #333333;
+}
 
+
+/* Main: section "Team" */
+
+.description-team{
+  width: 941px;
+  margin: 0 auto;
+  text-align: center;}
+
+.team{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;}
+.card{
+  width: 380px;
+  height: 650px;
+  text-align: center;}
+
+.card-image{
+  width: 380px;
+  height: 470px;
+  position: relative;}
+  @keyframes photo-position{
+  from { top: 0; left: 0;}
+  to { top: -10px; left: -10px;}}
+.card-image:hover{
+  top: -10px;
+  left: -10px;
+  animation-name: photo-position;
+  animation-duration: 0.3s;}
+
+.overlay-card{
+  position: absolute;
+  transition: opacity .5s;
+  opacity: 0;
+  width: 380px;
+  height: 470px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-content: center;
+  background: linear-gradient(rgba(239, 140, 138, .9), rgba(239, 213, 137, .9));
+  box-shadow: 10px 10px #95e1d3;}.card-image:hover .overlay-card{opacity: 1;} 
+.buttons{
+  height: 56px;
+  width: 223px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;}
+.networks{
+  width: 55px;
+  height: 56px;
+  border: none;
+  outline: none;
+  background: #fce38a;}.networks:hover{background: #95e1d3;}
+
+.name {margin-top: 31px;}
+.position{
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 16px;
+  height: 16px;
+  color: #999;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 300;}
 
 
 /* FOOTER */
