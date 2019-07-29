@@ -1,9 +1,12 @@
+
+  
+
 *{
     
     /* background-color: #fff; */
 }
 .wrapper {
-    background: rgba(157, 123, 160, 0.753);
+    background: rgba(239, 208, 241, 0.493);
     margin: 0 auto;
     width: 1400px;
 }
@@ -18,17 +21,21 @@ header{
     
 }
 .logo {
-
+    display: inline-flex;
+    margin-top: 44px;
     margin-left: 17%;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
+nav {
     margin-left: 26%;
+}
+ul{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 50px;
     width: 35%;
     }
 li{
-    margin-left: 40px;
+    margin-right: 40px;
     list-style: none;
 }
 a{
@@ -47,7 +54,7 @@ a:hover {
 
 /* MAIN */
 h2 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -73,9 +80,9 @@ span {
 /* SECTION-SERVICES */
 h3 {
     text-align: center;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 .services-wrapper{
@@ -99,9 +106,10 @@ h3 {
 }
 .description {
     text-align: center;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
+    color: #838383;
 }
  /* SECTION-CONTACT-US */
 .contact-form {
