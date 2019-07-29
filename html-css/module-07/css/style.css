@@ -1,36 +1,114 @@
 *{
-    background-color: #fff;
+    
+    /* background-color: #fff; */
 }
+.wrapper {
+    background: rgba(157, 123, 160, 0.753);
+    margin: 0 auto;
+    width: 1400px;
+}
+
+
+/* HEADER */
+header{
+    display: inline-flex;
+    width: 1400px;
+    /* justify-content: flex-end; */
+
+    
+}
+.logo {
+
+    margin-left: 17%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26%;
+    width: 35%;
+    }
 li{
+    margin-left: 40px;
     list-style: none;
 }
 a{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
     text-decoration: none;
 }
+a:hover {
+    color: #fed136;
+}
+
+
+/* MAIN */
 h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #222;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
 }
+
+span {
+    font-size: 16px;
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.sign {
+
+    text-align: center;
+}
+
+/* SECTION-SERVICES */
 h3 {
-    font-family: 'Roboto Slab';
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
     font-style: normal;
     font-weight: 400;
+    
 }
-.sign {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 300;
+.services-wrapper{
+    width: 934px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    width: 275px;
+}
+.image {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 68px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
 }
 .description {
-    font-family: 'Roboto Slab';
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
     font-style: normal;
     font-weight: 300;
 }
-.sign {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 300;
+ /* SECTION-CONTACT-US */
+.contact-form {
+    height: 677px;
+    background: url(/img/map.png) right center no-repeat #222;
+ }
+
+.contact-form h2 {
+    color: #fff;
 }
