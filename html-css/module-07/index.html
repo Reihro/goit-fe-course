@@ -14,15 +14,15 @@
     <div class="logo"><a href="#"><img src="img/logo.png" alt="Golden"></a></div>
     <nav><ul class="navigation">
             <li class="nav_menu"><a href="#">Home</a></li>
-            <li class="nav_menu"><a href="#">Services</a></li>
+            <li class="nav_menu"><a href="#services">Services</a></li>
             <li class="nav_menu"><a href="#">Portfolio</a></li>
             <li class="nav_menu"><a href="#">About</a></li>
-            <li class="nav_menu"><a href="#">Contact</a></li>
+            <li class="nav_menu"><a href="#contact-form">Contact</a></li>
     </ul></nav>
 </header>
 
 <main>
-<section class="services">
+<section id="services">
     <h2 class="titile">Services</h2>
     <div class="sign"><span>Proin iaculis purus consequat sem cure.</span></div>
     <div class="services-wrapper">
@@ -49,25 +49,18 @@
         </div>
     </div>
 </section>
-<section class="contact-form">
+
+<section id="contact-form">
         <h2 class="titile">Contact us</h2>
         <div class="sign"><span>Proin iaculis purus consequat sem cure.</span></div>
-        <div class="form-wrapper">
-            <form action=""></form>
-        </div>
+        <form action ="#" method="get"><table>
+            <tr><td class="form-cell"><input placeholder="your Name *" name="username" type="text" required></td>
+            <td rowspan="3"><textarea name ="comments" rows="5" cols="45" placeholder="Your message *" type="message" required></textarea></td></tr>
+            <tr><td class="form-cell"> <input autocomplete="on" placeholder="your e-mail *" name="email" type="email" required></td></tr>
+            <tr><td class="form-cell"><input placeholder="subject" name="subject" type="subject"></td></tr>
+            <tr><td colspan="2"><button type="submit" value="send">Send message</button></td></tr>
+        </table></form>
 </section>
-
-
 </main>
-
-
-
-    
-
-
-
-
-
-
 </div></body>
 </html>
