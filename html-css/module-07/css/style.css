@@ -1,7 +1,7 @@
 html {scroll-behavior: smooth;}
 .wrapper {
     margin: 0 auto;
-    width: 1400px;
+    /* width: 1400px; */
 }
 
 
@@ -9,8 +9,10 @@ html {scroll-behavior: smooth;}
 header{
     background: #fff;
     height: 80px;
+    margin: 0 auto;
     display: inline-flex;
-    width: 1400px;}
+    width: 100%;
+}
 main {
     background: #fff;
 }
@@ -112,7 +114,9 @@ h3 {
  /* SECTION-CONTACT-US */
 #contact-form {
     height: 677px;
-    background: url(/img/map.png) right 120px no-repeat #222; }
+    width: 100%;
+    border-collapse: collapse;
+    background: url(../img/map.png) right 120px no-repeat #222; }
 
 #contact-form h2 {color: #fff; padding-top: 110px;}
 
