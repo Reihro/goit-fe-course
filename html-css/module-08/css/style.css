@@ -1,5 +1,4 @@
 /* GLOBAL-SETTINGS */
-
 html {
 margin: 0;
 padding: 0;
@@ -23,35 +22,28 @@ button {
 button:hover{
     border: 3px solid #fff;
     border-radius: 20px;}
-    span {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 18.00883px;
-        line-height: 1;
-    }
+span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18.00883px;
+    line-height: 1;
+}
 p {
     color: rgba(102, 102, 102);
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     width: 220px;
-   margin: 20px auto;
-}
-a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
+    margin: 20px auto;
 }
 h2 ,
 h4 {
     color: rgba(51, 51, 51);
     font-family: 'Montserrat', sans-serif;
-
     font-weight: 700;
-}
-h4 {
     font-size: 14px;
 }
+
 /* SECTION-HEAD */
 .head{
     padding: 21px;
@@ -62,8 +54,7 @@ h4 {
     background: url(../img/background/mobile.png), #000;
     position: relative;
 }
-
-.header {
+header {
 top: 6.5%;
 }
 .logo {
@@ -79,21 +70,20 @@ top: 6.5%;
 .option {
     width: 90px;
     height: 36px;
-
 }
-
-
 .title {
     margin-top: 60.72%;
-    font-weight: 700;
-    font-size: 28.8px;
-    line-height: 1;
-    color: #fff;
-    text-transform: uppercase;
+    width: 100%;
+    height: 60px;
 }
-
+.horizontal {
+    display: none;
+}
+.sign {
+    margin: 5% auto;
+    width: 80%;
+}
 .search {
-    margin-top: 5.63%;
     width: 280px;
     height: 40px;
     color: #fff;
@@ -103,49 +93,19 @@ top: 6.5%;
 .search:hover{
     background: transparent;
     border:3px solid #fff;}
-.search a{
-color: #fff;
+
+
+/* SECTION-PARTNERS */
+.partners {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    padding: 20px;
 }
-    .sign {
-        margin: -1% auto;
-        width: 80%;
-    }
-
-
-
-    .partners {
-        width: 100%;
-        max-width: 280px;
-        text-align: center;
-        padding: 20px;
-    }
-    .image {
-        width: 122px;
-        height: 122px;
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            margin: 0 auto;
-        ;
-    }
-
-    .icon {
-        width: 33px;
-        height: 33px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 3px solid white;
-        border-radius: 50%;
-        background: cyan;
-    }
-    h2 {
-        width: 100%;
-        height: 40px;
-        
-    }
-
+h2 {
+    width: 100%;
+    height: 40px; 
+}
 .card-wrap {
     top: 40px;
     width: 100%;
@@ -154,9 +114,26 @@ color: #fff;
 }
 .card {
 width: 100%;
-
 }
-
+.image {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+.icon {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: cyan;
+}
 .others {
     margin: 40px auto;
     width: 193px;
@@ -167,61 +144,72 @@ width: 100%;
     align-items: center;
     justify-content: center;
     background: #fff;
-    border: 3px solid #ff4e50;
-
-}
-.others a{
     color: #ff4e50;
-
+    border: 3px solid #ff4e50;
 }
+
+
+/* TABLET */
+
 @media (min-width: 768px) {
-    .head {
-        min-width: 768px;
-        width: 100%;
-        
-        background: url(../img/background/horizontal.png) center no-repeat #222; 
-    }
-    .wrapper {
-        max-width: 768px;
-    }
-    .logo {
-        
-        top: 26px;
-        left: 49px;
-    }
-    .options {
-        
-        justify-content: flex-end;
-    }
-    .title {
-        margin-top: 160px;
-    }
-    .search {
-        width: 225px;
-    }
-    .partners {
-        max-width: 768px;
-    }    .card {
-        width: 50%;
-    
-    }
-    p {
-
-    }
+.wrapper {
+    max-width: 768px;
 }
-@media (min-width: 1200px) {
-    .card {
-        width: 25%;
-    }
-    .wrapper {
-        max-width: 1200px;
-    }
+.head {
+    min-width: 768px;
+    width: 100%;
+    background: url(../img/background/horizontal.png) center no-repeat #222; 
+}
+.logo {
+    top: 26px;
+    left: 49px;
+}
+.options {
+    justify-content: flex-end;
+}
+.title {
+    margin-top: 90px;
+    height: 105px;
+}
+.horizontal{
+    display: block;
+}
+.mobile {
+    display: none;
+}
+.search {
+    width: 225px;
+}
+.partners {
+    max-width: 768px;
+}    
+.card {
+    width: 50%;
+}
+}
 
-    .partners {
-        max-width: 1200px;
-    } 
-    .head {
-        width: 100%;
-        max-width: 1200px;
-    }
+/* DESKTOP */
+@media (min-width: 1200px) {
+.wrapper {
+    max-width: 1200px;
+}
+.head {
+    width: 100%;
+    max-width: 1200px;
+}
+.logo {
+    left: 150px;
+}
+.sign {
+    margin: 40px auto;
+}
+header {
+    padding: 0 130px;
+}    
+.partners {
+    max-width: 1200px;
+} 
+.card {
+    width: 25%;
+}
 }
