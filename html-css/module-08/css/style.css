@@ -105,6 +105,7 @@ top: 6.5%;
 h2 {
     width: 100%;
     height: 40px; 
+    font-size: 22px;
 }
 .card-wrap {
     top: 40px;
@@ -130,7 +131,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid white;
+    border: 4px solid white;
     border-radius: 50%;
     background: cyan;
 }
@@ -182,9 +183,12 @@ width: 100%;
 }
 .partners {
     max-width: 768px;
-}    
+}   
+.card-wrap{
+    justify-content: center;
+} 
 .card {
-    width: 50%;
+    width: 40%;
 }
 }
 
