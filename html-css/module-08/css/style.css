@@ -10,8 +10,8 @@ overflow:hidden;
 }
 .wrapper {
     margin: 0 auto;
-    max-width: 320px;
     min-width: 320px;
+    
 }
 button {
     background: none;
@@ -48,24 +48,25 @@ h4 {
 
 /* SECTION-HEAD */
 .head{
-    padding: 21px;
-    max-width: 280px;
-    min-height: 500px;
+    padding-top: 21px;
+    height: 500px;
     color: #fff;
     text-align: center;
-    background: url(../img/background/mobile.png), #000;
+    background: url(../img/background/mobile.png), #222
+    ;
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
-header {
-top: 6.5%;
-}
+
 .logo {
     position: absolute;
-    top: 31.73%;
-    left: 22.36%;
+    top: 170px;
+    left: 25%;
 }
 .options {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -75,7 +76,7 @@ top: 6.5%;
     height: 36px;
 }
 .title {
-    margin-top: 60.72%;
+    margin-top: 230px;
     width: 100%;
     height: 60px;
 }
@@ -104,6 +105,7 @@ top: 6.5%;
     max-width: 280px;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
 h2 {
     width: 100%;
@@ -155,22 +157,23 @@ width: 100%;
 
 /* TABLET */
 
-@media (min-width: 768px) {
-.wrapper {
-    max-width: 768px;
-    min-width: 768px;
-}
+@media screen and (min-width: 768px) {
+
 .head {
-    min-width: 768px;
     width: 100%;
-    background: url(../img/background/horizontal.png) center no-repeat #222; 
+    background:  url(../img/background/horizontal.png) center no-repeat, linear-gradient(to right, orange, black, orange) 
+}
+header {
+    max-width: 768px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 .logo {
-    top: 26px;
-    left: 49px;
+    position: unset;
 }
 .options {
-    justify-content: flex-end;
+    margin-left: 60%;
 }
 .title {
     margin-top: 90px;
@@ -197,17 +200,17 @@ width: 100%;
 }
 
 /* DESKTOP */
-@media (min-width: 1200px) {
-.wrapper {
-    min-width: 1200px;
-    max-width: 1200px;
-}
+@media screen and (min-width: 1200px) {
+
 .head {
     width: 100%;
-    max-width: 1200px;
+    background-size: cover;
 }
-.logo {
-    left: 150px;
+header {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+
 }
 .sign {
     margin: 40px auto;
