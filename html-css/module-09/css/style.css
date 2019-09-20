@@ -56,7 +56,6 @@ h4 {
 /* SECTION-HEAD */
 .head{
     height: 500px;
-    padding-top: 20px;
     color: #fff;
     text-align: center;
     background: url(../img/background/mobile.png), #222;
@@ -64,6 +63,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0;
 }
 .logo {
     margin-top: 80px;
@@ -76,6 +76,9 @@ h4 {
 .option {
     width: 90px;
     height: 36px;
+}
+.nav {
+    padding-top: 20px;
 }
 .title {
     margin-top:20px;
