@@ -5,7 +5,12 @@ html {scroll-behavior: smooth;}
     /* height: 1920px; */
     margin: 0 auto;
     background-color:#fff;}
-
+h3 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
 
 /* HEADER */
 header {
@@ -54,12 +59,11 @@ nav {
   width: 86px;
   margin-top:20px;}
 
-  .subtitle {
+  .header--subtitle {
     font-size: 50px;
     color: #fff;
-    text-align: center;
-    font-family: "Kaushan Script", cursive;} .subtitle:first-letter {text-transform: uppercase;}
-  header .subtitle {
+} .subtitle:first-letter {text-transform: uppercase;}
+  .header--subtitle {
     margin-top: 80px;
   }
 nav {
@@ -96,7 +100,7 @@ nav {
   -o-transition: opacity .5s;
   transition: opacity .5s;}
 .nav__menu--list:hover::after{opacity: 1;}.nav__menu--list:hover,.nav__menu--list:focus{color: #efd789;}.nav__menu--list:checked{color:#e2b37a;}
-.header-title{
+.header--title{
   margin: -50px auto 0;
   width: 800px;
 }
@@ -132,7 +136,6 @@ button:hover{
 #service img:hover {
   color: #333;
 } 
-
 .title {
   font-size: 30px;
   color: #333;
