@@ -1,0 +1,95 @@
+header {
+    height: 600px;
+    background: $gradient, url(../images/background@1X.png);
+    background-size: cover;
+    text-align: center;
+    color: $white;
+    }
+    @media only screen and (min-device-pixel-ratio: 1.5){
+    .header {background: $gradient, url(../images/background@2X.png);}
+    }
+    nav {
+    display: flex;
+    width: 1220px;
+    height: 65px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+    justify-content: space-between;}
+    nav svg {
+      width: 15px;
+      height: 15px;
+      fill: $white;
+    }
+    .nav__menu--icon:hover {
+        fill: $yellow;
+      }
+    .logo {
+    height: 23px;
+    width: 86px;
+    margin-top:20px;}
+    h3 {
+      font-size: 24px;
+      color: $black;
+      text-align: center;
+      font-family: $font-subtitle;
+    }
+    .header--subtitle {
+      font-size: 50px;
+      color: $white;
+    } .subtitle:first-letter {text-transform: uppercase;}
+    .header--subtitle {
+      margin-top: 80px;
+    }
+    .nav__menu {
+    margin-top: 31px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;}
+    .nav__menu--list {
+    color: $white;
+    font-family: $font-text;
+    font-size: 14px;
+    font-weight: 500;
+    flex-basis: 70px;
+    text-transform: uppercase;
+    text-decoration: none;}
+    .nav__menu--list:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    width: 100%;
+    height: 3px;
+    margin-top: 14px;
+    background: $yellow;
+    transition: opacity .5s;}
+    .nav__menu--list:hover::after{opacity: 1;}.nav__menu--list:hover,.nav__menu--list:focus{color: $yellow;}.nav__menu--list:checked{color:$yellow;}
+    .header--title{
+    margin: -50px auto 0;
+    width: 800px;
+    }
+    h1 {
+    font-family: $font-text;
+    font-size: 110px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100px;
+    }
+    button {
+    background: transparent;
+    border: 3px solid $white;
+    color: $white;
+    text-transform: uppercase;
+    width: 160px;
+    height: 40px;
+    font-family: $font-text;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -10px;
+    cursor: pointer;
+    }
+    button:hover{
+            box-shadow:0px 0px 2px 2px $white inset;
+    }
+    
+    

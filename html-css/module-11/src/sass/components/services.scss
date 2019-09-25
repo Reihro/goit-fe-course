@@ -1,0 +1,56 @@
+#block__service .subtitle, #contact .subtitle {
+    color: $black;
+    font-size: 24px;
+    }
+    #service img:hover {
+    color: $black;
+    } 
+    .title {
+    font-size: 30px;
+    color: $black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:$font-text;
+    font-weight: 700;    
+    margin-top: 18px;}
+    .title:after {
+    content: "";
+    display: block;
+    margin: 42px auto 0;
+    width: 60px;
+    height: 3px;
+    background:$strawberry;}
+    p {
+    color: $grey;
+    font-size: 14.5px;
+    line-height: 24px;
+    font-family: $font-title;
+    font-weight: 400;}
+    h4 {
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $font-text;
+    color: $black;
+    text-align: center;}
+    
+    
+    #service {margin-top: 30px;}
+.services {
+width: 1220px;
+height: 240px;
+margin: 66px auto 0;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;}
+.block__service {
+width: 330px;
+height: 70px;
+display: flex;
+justify-content: space-between;}.block__service:nth-of-type(n+4) {margin-top: 100px;}
+.service--info {width: 270px;height: 70px;}
+.service--name {line-height: 10px;text-align: left;}
+.service--descritpion {margin-top: 10px;}
+
