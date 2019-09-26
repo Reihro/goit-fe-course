@@ -4,7 +4,7 @@ header {
     background-size: cover;
     text-align: center;
     color: $white;
-    }
+
     @media only screen and (min-device-pixel-ratio: 1.5){
     .header {background: $gradient, url(../images/background@2X.png);}
     }
@@ -16,31 +16,17 @@ header {
     margin: 0 auto;
     z-index: 10;
     justify-content: space-between;}
-    nav svg {
+    .nav__menu--icon {
       width: 15px;
-      height: 15px;
-      fill: $white;
-    }
-    .nav__menu--icon:hover {
-        fill: $yellow;
-      }
-    .logo {
+      height: 15px;}
+    .header--logo {
     height: 23px;
     width: 86px;
     margin-top:20px;}
-    h3 {
-      font-size: 24px;
-      color: $black;
-      text-align: center;
-      font-family: $font-subtitle;
-    }
     .header--subtitle {
       font-size: 50px;
       color: $white;
-    } .subtitle:first-letter {text-transform: uppercase;}
-    .header--subtitle {
-      margin-top: 80px;
-    }
+      margin-top: 80px;}
     .nav__menu {
     margin-top: 31px;
     width: 490px;
@@ -53,8 +39,8 @@ header {
     font-weight: 500;
     flex-basis: 70px;
     text-transform: uppercase;
-    text-decoration: none;}
-    .nav__menu--list:after {
+    text-decoration: none;
+    &:after {
     content: "";
     display: block;
     opacity: 0;
@@ -63,7 +49,8 @@ header {
     margin-top: 14px;
     background: $yellow;
     transition: opacity .5s;}
-    .nav__menu--list:hover::after{opacity: 1;}.nav__menu--list:hover,.nav__menu--list:focus{color: $yellow;}.nav__menu--list:checked{color:$yellow;}
+    &:hover::after{opacity: 1;}&:hover,.nav__menu--list:focus{color: $yellow;}&:checked{color:$yellow;}
+    }
     .header--title{
     margin: -50px auto 0;
     width: 800px;
@@ -87,9 +74,8 @@ header {
     font-weight: 600;
     margin-top: -10px;
     cursor: pointer;
-    }
-    button:hover{
+    &:hover{
             box-shadow:0px 0px 2px 2px $white inset;
-    }
+    }}
     
-    
+}

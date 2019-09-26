@@ -1,14 +1,3 @@
-@-webkit-keyframes photo-position{
-    from { top: 0; left: 0;}
-    to { top: -10px; left: -10px;}}
-    @keyframes photo-position{
-    from { top: 0; left: 0;}
-    to { top: -10px; left: -10px;}}
-    picture {
-        position: absolute;
-        z-index: 1;
-        width: 380px;
-        height: 470px;}
 .card{
     width: 380px;
     height: 650px;
@@ -19,21 +8,18 @@
         left: -10px;
         animation-name: photo-position;
         animation-duration: 0.3s;}
-&:hover .overlay-card{opacity: 1;} 
-}
-    .name {margin-top: 512px;}
-    .position{
-    top: 512px;
-    font-size: 15px;
-    line-height: 40px;
-    height: 16px;
-    color:$grey;
-    text-align: center;
-    font-style: oblique;
-    font-weight: 300;}
-    
-       
-    .overlay-card{
+&:hover .card__overlay{opacity: 1;} 
+.name {margin-top: 512px;}
+.position{
+top: 512px;
+font-size: 15px;
+line-height: 40px;
+height: 16px;
+color:$grey;
+text-align: center;
+font-style: oblique;
+font-weight: 300;}
+.card__overlay{
     position: absolute;
     width: 380px;
     height: 470px;
@@ -41,29 +27,32 @@
     opacity: 0;
     transition: opacity .5s;
     background: $gradient;
-            box-shadow: 10px 10px $green;
+    box-shadow: 10px 10px $green;
     display: flex;
     align-content: center;}
-
-
-
-    .buttons{
+.buttons{
     height: 56px;
     width: 223px;
     display: flex;
     margin: auto;}
-    .networks svg {
-        width: 25px;
-        height: 25px;
-        fill: $strawberry;
-      }
-    
-    .networks {
+.networks {
       width: 56px;
       height: 56px;
       background-color: $yellow;
       display: flex;
-              align-items: center;
-              justify-content: center;
-      margin-right: 1.5px;
- &:hover{background: $green;}  &:hover .icon{fill: $white;}}
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.5px;&:hover{background: $green;}  &:hover .icon{fill: $white;}
+      & img {width: 25px;height: 25px;}}
+}
+    @-webkit-keyframes photo-position{
+        from { top: 0; left: 0;}
+        to { top: -10px; left: -10px;}}
+        @keyframes photo-position{
+        from { top: 0; left: 0;}
+        to { top: -10px; left: -10px;}}
+        picture {
+            position: absolute;
+            z-index: 1;
+            width: 380px;
+            height: 470px;}
