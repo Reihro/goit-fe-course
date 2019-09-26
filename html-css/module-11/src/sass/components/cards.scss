@@ -9,8 +9,8 @@
         animation-name: photo-position;
         animation-duration: 0.3s;}
 &:hover .card__overlay{opacity: 1;} 
-.name {margin-top: 512px;}
-.position{
+&--name {margin-top: 512px;}
+&--position{
 top: 512px;
 font-size: 15px;
 line-height: 40px;
@@ -18,33 +18,8 @@ height: 16px;
 color:$grey;
 text-align: center;
 font-style: oblique;
-font-weight: 300;}
-.card__overlay{
-    position: absolute;
-    width: 380px;
-    height: 470px;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity .5s;
-    background: $gradient;
-    box-shadow: 10px 10px $green;
-    display: flex;
-    align-content: center;}
-.buttons{
-    height: 56px;
-    width: 223px;
-    display: flex;
-    margin: auto;}
-.networks {
-      width: 56px;
-      height: 56px;
-      background-color: $yellow;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-right: 1.5px;&:hover{background: $green;}  &:hover .icon{fill: $white;}
-      & img {width: 25px;height: 25px;}}
-}
+font-weight: 300;}}
+
     @-webkit-keyframes photo-position{
         from { top: 0; left: 0;}
         to { top: -10px; left: -10px;}}

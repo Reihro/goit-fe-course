@@ -1,0 +1,25 @@
+.card__overlay{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .5s;
+    background: $gradient;
+    box-shadow: 10px 10px $green;
+    display: flex;
+    align-content: center;
+&--buttons{
+    height: 56px;
+    width: 223px;
+    display: flex;
+    margin: auto;}
+&--networks {
+      width: 56px;
+      height: 56px;
+      background-color: $yellow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.5px;&:hover{background: $green;}  &:hover .icon{fill: $white;}
+      & img {width: 25px;height: 25px;}}}
