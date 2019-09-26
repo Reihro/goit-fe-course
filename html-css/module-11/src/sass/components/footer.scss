@@ -1,28 +1,29 @@
 footer{height: 64px;max-width: 1220px;margin: 0 auto;
-&:before {
+&::before {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
     background: $footer-before;}
-.footer__sign {float: left;}
-.footer__sign--span{
-    color:rgb(51, 51, 51);
+&__sign 
+{float: left;}
+&__sign--span
+{   color:rgb(51, 51, 51);
     line-height: 62px;
     font-family:$font-text;
     font-weight: 400;
     margin-top: 24px;
     font-size: 14px;}
-.footer--link{
-    text-decoration: none;
+&--link
+{   text-decoration: none;
     font-size: 14px;
     color: $link;}  
-.footer__input {
-    top: 10px;
+&__input 
+{   top: 10px;
     line-height: 62px;
     float: right;}
-.footer__input--textarea {
-    width: 227px;
+&__input--textarea 
+{   width: 227px;
     height: 38px;
     font-size: 15px;
     font-style: oblique;
@@ -30,8 +31,8 @@ footer{height: 64px;max-width: 1220px;margin: 0 auto;
     border: 1px solid $input;
     line-height: 24px;
     outline: none;}  
-.footer__input--submit {
-    width: 149px;
+&__input--submit 
+{   width: 149px;
     height: 39px;
     font-size: 14px;
     line-height: 39px;
@@ -41,4 +42,5 @@ footer{height: 64px;max-width: 1220px;margin: 0 auto;
     border: none;
     text-transform: uppercase;
     font-family: $font-text;
-    font-weight: 700;  } }
+    font-weight: 700;} 
+}

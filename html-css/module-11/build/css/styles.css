@@ -719,7 +719,7 @@ footer {
   margin: 0 auto;
 }
 
-footer:before {
+footer::before {
   content: "";
   display: block;
   width: 100%;
@@ -727,11 +727,11 @@ footer:before {
   background: #e5e5e5;
 }
 
-footer .footer__sign {
+footer__sign {
   float: left;
 }
 
-footer .footer__sign--span {
+footer__sign--span {
   color: #333333;
   line-height: 62px;
   font-family: "Montserrat", sans-serif;
@@ -740,19 +740,19 @@ footer .footer__sign--span {
   font-size: 14px;
 }
 
-footer .footer--link {
+footer--link {
   text-decoration: none;
   font-size: 14px;
   color: #f9c6c6;
 }
 
-footer .footer__input {
+footer__input {
   top: 10px;
   line-height: 62px;
   float: right;
 }
 
-footer .footer__input--textarea {
+footer__input--textarea {
   width: 227px;
   height: 38px;
   font-size: 15px;
@@ -763,7 +763,7 @@ footer .footer__input--textarea {
   outline: none;
 }
 
-footer .footer__input--submit {
+footer__input--submit {
   width: 149px;
   height: 39px;
   font-size: 14px;
