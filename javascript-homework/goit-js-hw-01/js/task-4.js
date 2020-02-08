@@ -15,5 +15,5 @@ if (amountSelection === null) {
 
 } else if (totalPrice <= userCredits) {
   userRest = userCredits - amountSelection * pricePerDroid;
-  alert('\nВы купили ' + amountSelection + ' дроидов!\nНа Вашем счету осталось ' + userCash + ' кредитов');
+  alert('Вы купили ' + amountSelection + ' дроидов! На Вашем счету осталось ' + userRest + ' кредитов');
 }
