@@ -3,7 +3,7 @@
 function countTotalSalary(employees) {
   let totalSalary = 0;
   for (const key in employees) {
-    totalSalary = employees[key] + totalSalary;
+    totalSalary += employees[key];
   }
   return totalSalary;
 }
