@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    background-color: rgba(195, 240, 241, 0.493);
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+.task {
+    color: rgb(12, 78, 78);
+    text-shadow: 5px 5px 5px rgba(52, 69, 85, 0.39);
+    margin-right: 10%;
+}
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+
+  .tasks_space {
+      margin: 100px auto;
+      display: flex;
+      background-color: rgba(195, 240, 241, 0.493);
+min-width: 875px;
+padding: 50px;
+border: 2px solid rgba(134, 196, 27, 0.089);
+  }
+img {
+    width: 250px;
+     display: inline-flex;
+}
+.gallery {
+    width: 70%;
+    display: flex;
+}
+  input {
+      padding: 5px 20px;
+      margin-right: 50px;
+  }
+  button, input {
+      border-radius: 25%;
+      background: rgba(52, 65, 65, 0.274);
+  }
