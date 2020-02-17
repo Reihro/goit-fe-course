@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <div class="toolbar">
@@ -37,12 +37,10 @@
           name="theme"
           id="theme-switch-control"
         />
-        <label
-          aria-hidden="true"
+        <label aria-hidden="true"
           class="switch__label"
           for="theme-switch-control"
-          >On</label
-        >
+          >On</label>
         <div aria-hidden="true" class="switch__marker"></div>
       </div>
 
@@ -65,5 +63,6 @@
 
   <!-- В этот список рендери разметку меню -->
   <ul class="menu js-menu"></ul>
+  <script src="./index.js" type="module"></script>
 </body>
 </html>

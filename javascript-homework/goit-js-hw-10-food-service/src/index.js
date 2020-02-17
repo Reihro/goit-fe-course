@@ -14,7 +14,7 @@ const Theme = {
   DARK: "dark-theme"
 };
 const userTheme = localStorage.getItem("userTheme");
-refs.body.classList.add(userTheme);
+
 // Выбор темы
 refs.themeSwitcher.addEventListener("change", event => {
   if (event.target.checked) {
@@ -26,8 +26,13 @@ refs.themeSwitcher.addEventListener("change", event => {
   }
 });
 // Ползунок
-if (userTheme === Theme.DARK) {
-  refs.themeSwitcher.checked = true;
+  if (userTheme) {
+  if (userTheme === Theme.DARK) {
+    refs.themeSwitcher.checked = true;
+  } else {
+    refs.themeSwitcher.checked = false;
+  }
+  refs.body.classList.add(userTheme);
 }
 
 // МЕНЮ
