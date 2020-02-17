@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Caveat', cursive;
+}
+.timer {
+  display: flex;
+  padding-top: 30px;
+}
+.value {
+  padding-right: 20px;
+  font-size: 120px;
+  display: block; 
+  color: white;
+  background: linear-gradient(grey, rgba(170, 169, 169, 0.397) , grey);
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.521) 5px 5px 5px;
+}
+.label {
+  font-size: 50px;
+  color: rgb(1, 102, 102);
+}
+.field:not(:last-of-type) {
+  margin-right: 5%;
+  text-align: center;
+}
+

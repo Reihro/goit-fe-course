@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: inline-block;
+    margin: 30% 0;    
+    width: 150px;
+    height: 100px;    
+    border-radius: 70%;
+    background: rgba(0, 0, 0, 0.473);
+    border: 1px solid rgb(84, 70, 90);
+    box-shadow: 5px 5px 5px rgba(84, 70, 90, 0.308);
+    outline: none;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+button:disabled {
+    background: rgba(163, 160, 160, 0.473);
+}
