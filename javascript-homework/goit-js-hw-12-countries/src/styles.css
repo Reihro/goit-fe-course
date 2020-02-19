@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://image.freepik.com/free-vector/_1017-14885.jpg);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+  font-size: 24px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: rgb(173, 46, 95);
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+input {
+  width: 255px;
+	height: 25px;
+	padding: 5px 20px;
+	border-radius: 55%;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  outline: none;
+  margin-top: 50px;
+  color: rgba(197, 138, 197, 0.938);
+  box-shadow: rgba(218, 208, 77, 0.411) 0px 0px 10px;
+}
+
+input::placeholder {
+  font-family: 'Caveat', cursive;
+  color: rgba(197, 138, 197, 0.781);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: rgb(236, 205, 205);
+}
+
+.info {
+  padding: 0;
+  min-width: 350px;
+  text-align: left;
+}
+
+.img {
+  height: 200px;
+  width: 350px;
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.thesis {
+  color: rgb(218, 209, 77);
+  font-weight: bold;
+}
+
+.country-list {
+  list-style-type: square;
+  color: rgb(197, 138, 197);
+}
