@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS_HW-Module-13 Image Finder</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h2>This is an image search service</h2>
+    <form class="search-form">
+        <input type="text" name="userRequest" placeholder="Enter your request" autocomplete="on" class="input-value">
+        <button type="submit" class="search">Search</button>
+    </form>
+    <div class="container">
+        <ul class="gallery" id="feed"></ul>
+    </div>
+    <div class="footer">
+        <button type="button" data-action="load more" class="load" hidden>Load more</button>
+    </div>
+</body>
+
+</html>

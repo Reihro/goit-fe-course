@@ -1,0 +1,89 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://www.publicdomainpictures.net/pictures/120000/nahled/watercolor-bokeh-pastel-background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Caveat', cursive;
+	scroll-behavior: smooth;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: rgb(173, 46, 95);
+}
+
+button {
+	font-family: 'Caveat', cursive;
+	font-size: 24px;
+	background-color: rgba(218, 209, 77, 0.836);
+	box-shadow: rgba(197, 138, 197, 0.781) 5px 5px 5px;
+	border-radius: 33%;
+	font-weight: bold;
+	color: white;
+	outline: none;
+}
+
+button:hover {
+	background-color: rgba(197, 138, 166, 0.938);
+	box-shadow: rgba(218, 208, 77, 0.411) 5px 5px 5px;
+}
+
+.submit {
+	width: 50px;
+	height: 30px;
+}
+
+.load {
+	width: 100px;
+	height: 30px;
+}
+
+input {
+	width: 15%;
+	height: 25px;
+	padding: 0 20px;
+	border-radius: 55%;
+	outline: none;
+	font-family: 'Caveat', cursive;
+	font-size: 24px;
+}
+input::placeholder {
+	font-family: 'Caveat', cursive;
+  }
+.gallery {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo-card {
+	width: 20%;
+	margin: 1%;
+	min-width: 200px;
+	background-color: rgba(218, 208, 77, 0.411);
+	border-radius: 5%;
+	box-shadow: rgba(197, 138, 197, 0.781) 5px 5px 5px;
+}
+
+.image {
+	border-radius: 5%;
+	display: block;
+	height: 200px;
+	width: 100%;
+	margin: auto auto;
+}
+
+.stats {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.stats-item {
+	width: 45px;
+}
