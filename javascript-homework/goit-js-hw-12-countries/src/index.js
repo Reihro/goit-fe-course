@@ -11,8 +11,18 @@ const refs = {
   item: document.querySelectorAll("li"),
   countryResult: document.querySelector(".country-item")
 };
-let debounced = _.debounce(searchCountry, 500);
-refs.country.addEventListener("input", debounced);
+
+// надо не только подключить библиотеку к проекту
+// "lodash.debounce": "^4.0.8",
+
+// но и сделать import
+import { debounce } from 'lodash';
+debounce = require('lodash.debounce');
+// И тогда
+refs.country.addEventListener("input", debounce(searchCountry, 500));
+
+// let debounced = _.debounce(searchCountry, 500);
+// refs.country.addEventListener("input", debounced);
 
 // INSTRUMENTS
 function buildList(items) {
