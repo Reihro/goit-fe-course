@@ -1,5 +1,5 @@
 "use strict";
-// SOUP
+// // SOUP
 import "./styles.css";
 import service from "./country.js";
 import resultUl from "./templates/result-ul.hbs";
@@ -12,21 +12,15 @@ const refs = {
   countryResult: document.querySelector(".country-item")
 };
 
-// надо не только подключить библиотеку к проекту
-// "lodash.debounce": "^4.0.8",
-
-// но и сделать import
-import { debounce } from "lodash";
-debounce = require("lodash.debounce");
-// И тогда
+const debounce = require("../node_modules/lodash");
 refs.country.addEventListener("input", debounce(searchCountry, 500));
 
 // INSTRUMENTS
-function buildList(data) {
-  return resultUl(data);
+function buildList(item) {
+  return resultUl(item);
 }
-function buildCard(data) {
-  return resultCard(data);
+function buildCard(item) {
+  return resultCard(item);
 }
 
 //SEARCH
@@ -43,7 +37,7 @@ function searchCountry(e) {
       }
       if (10 >= data.length >= 1) {
         const markup = buildList(data);
-        refs.countriesResult.insertAdjacentHTML("beforeend", markup);
+        insertSearchList(markup);
       }
       if (data.length > 10) {
         PNotify.error({
@@ -55,4 +49,8 @@ function searchCountry(e) {
     let data = [];
     return data;
   }
+}
+
+function insertSearchList(markup) {
+  refs.countriesResult.insertAdjacentHTML("beforeend", markup);
 }
