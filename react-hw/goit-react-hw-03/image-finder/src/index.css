@@ -1,0 +1,27 @@
+html {
+	box-sizing: border-box;
+	width: 100vw;
+	overflow-x: hidden;
+  }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit;
+  }
+  
+  body {
+	background-image: url(https://www.aufildescouleurs.com/25233-large_default/puzzle.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Caveat', cursive;
+	scroll-behavior: smooth;
+	text-align: center;
+  }
+  
+  img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+  }
+

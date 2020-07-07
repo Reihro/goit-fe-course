@@ -1,0 +1,28 @@
+.movieCardMenu {
+	margin-bottom: 20px;
+}
+
+.movieCardMenu h2 {
+	margin-bottom: 10px;
+}
+
+.movieCardMenu ul {
+	display: flex;
+	list-style: none;
+}
+
+.movieCardMenu ul li a {
+	color: #081c24;
+	font-weight: bold;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+	.movieCardMenu h2 {
+		text-align: center;
+	}
+	.movieCardMenu ul {
+		justify-content: center;
+	}
+}

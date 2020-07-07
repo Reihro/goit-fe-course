@@ -1,0 +1,8 @@
+.Alert {
+	display: block;
+	position: absolute;	top: 10px;
+	left: 150px;
+	padding: 10px 45px;
+	color: #ffffff;
+	background-color: rgba(68, 25, 117, 0.473);
+}
