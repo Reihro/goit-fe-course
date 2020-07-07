@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/css/main.43823b95.chunk.css",
-    "main.js": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/main.0b3370d5.chunk.js",
-    "main.js.map": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/main.0b3370d5.chunk.js.map",
-    "runtime-main.js": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/runtime-main.7aebb08b.js",
-    "runtime-main.js.map": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/runtime-main.7aebb08b.js.map",
-    "static/js/2.2efb1924.chunk.js": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/2.2efb1924.chunk.js",
-    "static/js/2.2efb1924.chunk.js.map": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/2.2efb1924.chunk.js.map",
-    "index.html": "/goit-fe-course/react-hw/goit-react-hw-01-components/index.html",
-    "precache-manifest.874312221372efb73edd797a798e175a.js": "/goit-fe-course/react-hw/goit-react-hw-01-components/precache-manifest.874312221372efb73edd797a798e175a.js",
-    "service-worker.js": "/goit-fe-course/react-hw/goit-react-hw-01-components/service-worker.js",
-    "static/css/main.43823b95.chunk.css.map": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/css/main.43823b95.chunk.css.map",
-    "static/js/2.2efb1924.chunk.js.LICENSE.txt": "/goit-fe-course/react-hw/goit-react-hw-01-components/static/js/2.2efb1924.chunk.js.LICENSE.txt"
+    "main.css": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/css/main.fcc1a3dd.chunk.css",
+    "main.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/main.3127d714.chunk.js",
+    "main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/main.3127d714.chunk.js.map",
+    "runtime-main.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/runtime-main.5635f9fa.js",
+    "runtime-main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/runtime-main.5635f9fa.js.map",
+    "static/js/2.4875d002.chunk.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js",
+    "static/js/2.4875d002.chunk.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js.map",
+    "index.html": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/index.html",
+    "precache-manifest.08e8e0d158d3287c7d134d99adf31a3e.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/precache-manifest.08e8e0d158d3287c7d134d99adf31a3e.js",
+    "service-worker.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/service-worker.js",
+    "static/css/main.fcc1a3dd.chunk.css.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/css/main.fcc1a3dd.chunk.css.map",
+    "static/js/2.4875d002.chunk.js.LICENSE.txt": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7aebb08b.js",
-    "static/js/2.2efb1924.chunk.js",
-    "static/css/main.43823b95.chunk.css",
-    "static/js/main.0b3370d5.chunk.js"
+    "static/js/runtime-main.5635f9fa.js",
+    "static/js/2.4875d002.chunk.js",
+    "static/css/main.fcc1a3dd.chunk.css",
+    "static/js/main.3127d714.chunk.js"
   ]
 }
