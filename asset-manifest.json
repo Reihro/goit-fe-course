@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/css/main.fcc1a3dd.chunk.css",
-    "main.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/main.3127d714.chunk.js",
-    "main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/main.3127d714.chunk.js.map",
-    "runtime-main.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/runtime-main.5635f9fa.js",
-    "runtime-main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/runtime-main.5635f9fa.js.map",
-    "static/js/2.4875d002.chunk.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js",
-    "static/js/2.4875d002.chunk.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js.map",
-    "index.html": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/index.html",
-    "precache-manifest.08e8e0d158d3287c7d134d99adf31a3e.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/precache-manifest.08e8e0d158d3287c7d134d99adf31a3e.js",
-    "service-worker.js": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/service-worker.js",
-    "static/css/main.fcc1a3dd.chunk.css.map": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/css/main.fcc1a3dd.chunk.css.map",
-    "static/js/2.4875d002.chunk.js.LICENSE.txt": "/goit-fe-course/react-hw/goit-react-hw-02/feedback/static/js/2.4875d002.chunk.js.LICENSE.txt"
+    "main.css": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/css/main.21d14aaa.chunk.css",
+    "main.js": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/main.bd2f7fb4.chunk.js",
+    "main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/main.bd2f7fb4.chunk.js.map",
+    "runtime-main.js": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/runtime-main.4a9dca01.js",
+    "runtime-main.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/runtime-main.4a9dca01.js.map",
+    "static/js/2.b0182fe2.chunk.js": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/2.b0182fe2.chunk.js",
+    "static/js/2.b0182fe2.chunk.js.map": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/2.b0182fe2.chunk.js.map",
+    "index.html": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/index.html",
+    "precache-manifest.fffe2bc0e160b540e089f24c2b793c4f.js": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/precache-manifest.fffe2bc0e160b540e089f24c2b793c4f.js",
+    "service-worker.js": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/service-worker.js",
+    "static/css/main.21d14aaa.chunk.css.map": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/css/main.21d14aaa.chunk.css.map",
+    "static/js/2.b0182fe2.chunk.js.LICENSE.txt": "/goit-fe-course/react-hw/goit-react-hw-02/phonebook/static/js/2.b0182fe2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5635f9fa.js",
-    "static/js/2.4875d002.chunk.js",
-    "static/css/main.fcc1a3dd.chunk.css",
-    "static/js/main.3127d714.chunk.js"
+    "static/js/runtime-main.4a9dca01.js",
+    "static/js/2.b0182fe2.chunk.js",
+    "static/css/main.21d14aaa.chunk.css",
+    "static/js/main.bd2f7fb4.chunk.js"
   ]
 }
