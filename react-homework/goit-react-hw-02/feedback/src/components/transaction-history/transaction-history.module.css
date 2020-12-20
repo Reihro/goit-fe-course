@@ -1,0 +1,35 @@
+.transactionHistory {
+	margin: 30px auto;
+	width: 500px;
+	border-collapse: collapse;
+	background-color: rgba(153, 180, 202, 0.788);
+	box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.267);
+}
+
+table,
+td,
+th {
+	border: 1px solid rgba(125, 201, 231, 0.315);
+}
+
+.transactionHistory th {
+	padding: 10px 0;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #3cb5e99a;
+	color: #ffff;
+}
+
+.transactionHistory tr {
+	font-size: 13px;
+	font-weight: 300;
+	text-align: center;
+	background-color: #fff;
+}
+
+.transactionHistory td {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-transform: capitalize;
+}

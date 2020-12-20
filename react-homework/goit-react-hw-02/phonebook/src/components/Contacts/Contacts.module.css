@@ -1,0 +1,10 @@
+.component {
+	margin: 5px 0;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	padding-left: 16px;
+	width: 300px;
+}
