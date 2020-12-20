@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/css/main.d5cf4c44.chunk.css",
-    "main.js": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/main.89f51ce4.chunk.js",
-    "main.js.map": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/main.89f51ce4.chunk.js.map",
-    "runtime-main.js": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/runtime-main.46149e1b.js",
-    "runtime-main.js.map": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/runtime-main.46149e1b.js.map",
-    "static/js/2.0073a1ac.chunk.js": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/2.0073a1ac.chunk.js",
-    "static/js/2.0073a1ac.chunk.js.map": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/2.0073a1ac.chunk.js.map",
-    "index.html": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/index.html",
-    "static/css/main.d5cf4c44.chunk.css.map": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/css/main.d5cf4c44.chunk.css.map",
-    "static/js/2.0073a1ac.chunk.js.LICENSE.txt": "/goit-fe-course/react-homework/goit-react-hw-01-components/build/static/js/2.0073a1ac.chunk.js.LICENSE.txt"
+    "main.css": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/css/main.9fcdaa50.chunk.css",
+    "main.js": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/main.f2ae1951.chunk.js",
+    "main.js.map": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/main.f2ae1951.chunk.js.map",
+    "runtime-main.js": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/runtime-main.025bb49a.js",
+    "runtime-main.js.map": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/runtime-main.025bb49a.js.map",
+    "static/js/2.dae79b0c.chunk.js": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/2.dae79b0c.chunk.js",
+    "static/js/2.dae79b0c.chunk.js.map": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/2.dae79b0c.chunk.js.map",
+    "index.html": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/index.html",
+    "static/css/main.9fcdaa50.chunk.css.map": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/css/main.9fcdaa50.chunk.css.map",
+    "static/js/2.dae79b0c.chunk.js.LICENSE.txt": "/goit-fe-course/react-homework/goit-react-hw-02/feedback/build/static/js/2.dae79b0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.46149e1b.js",
-    "static/js/2.0073a1ac.chunk.js",
-    "static/css/main.d5cf4c44.chunk.css",
-    "static/js/main.89f51ce4.chunk.js"
+    "static/js/runtime-main.025bb49a.js",
+    "static/js/2.dae79b0c.chunk.js",
+    "static/css/main.9fcdaa50.chunk.css",
+    "static/js/main.f2ae1951.chunk.js"
   ]
 }
