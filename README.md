@@ -1,2 +1,3 @@
-# goit-fe-course
+# GoIT FE-Course 
 Homework
+
