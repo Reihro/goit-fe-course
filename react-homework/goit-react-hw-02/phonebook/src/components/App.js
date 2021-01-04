@@ -60,7 +60,7 @@ export default class App extends Component {
         </Section>
 
         <Section title="Contacts">
-          {(contacts.length > 2 || filter) && (
+          {(contacts.length > 1 || filter) && (
             <SearchForm value={filter} onChangeFilter={this.changeFilter} />
           )}
           <Contacts
