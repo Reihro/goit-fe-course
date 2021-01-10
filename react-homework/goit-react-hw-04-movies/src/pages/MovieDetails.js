@@ -26,7 +26,7 @@ export default class MovieDetailsPage extends Component {
       return history.push(location.state.from);
     }
     history.push("/movies");
-  };
+      };
 
   render() {
     const { movie } = this.state;

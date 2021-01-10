@@ -29,13 +29,24 @@ function App() {
             />
           }
         >
-          <Switch>
+          {/* <Switch>
             <Route path="/" exact component={AsyncHome} />
             <Route path="/movies/:movieId" component={AsyncMovieDetails} />
             <Route path="/movies" component={AsyncMovies} />
             <Route component={AsyncNotFound} />
           </Switch>
+        </Suspense> */}
+
+        <Switch>
+            <Route path="/" exact component={AsyncHome} />
+            <Route path="/movies/:movieId" component={AsyncMovieDetails} />
+            <Route path="/movies" component={AsyncMovies} />
+            <Route component={AsyncNotFound} />
+            <Route component={AsyncHome} />
+          </Switch>
         </Suspense>
+
+
       </div>
     </div>
   );
