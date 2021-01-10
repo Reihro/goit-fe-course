@@ -3,8 +3,8 @@
     "static/js/0.57b95268.chunk.js": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/0.57b95268.chunk.js",
     "static/js/0.57b95268.chunk.js.map": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/0.57b95268.chunk.js.map",
     "main.css": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/css/main.726ada47.chunk.css",
-    "main.js": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/main.789307a6.chunk.js",
-    "main.js.map": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/main.789307a6.chunk.js.map",
+    "main.js": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/main.b5e0749e.chunk.js",
+    "main.js.map": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/main.b5e0749e.chunk.js.map",
     "runtime-main.js": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/runtime-main.8944ae3f.js",
     "runtime-main.js.map": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/runtime-main.8944ae3f.js.map",
     "static/js/3.b55ebb7a.chunk.js": "/goit-fe-course/react-homework/goit-react-hw-04-movies/build/static/js/3.b55ebb7a.chunk.js",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.8944ae3f.js",
     "static/js/3.b55ebb7a.chunk.js",
     "static/css/main.726ada47.chunk.css",
-    "static/js/main.789307a6.chunk.js"
+    "static/js/main.b5e0749e.chunk.js"
   ]
 }
