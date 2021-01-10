@@ -12,11 +12,11 @@ const filterContacts = (contacts, filter) => {
   );
 };
 
-export default class App extends Component {
-  state = {
-    contacts: [...data],
-    filter: "",
-  };
+  export default class App extends Component {
+    state = {
+      contacts: [...data],
+      filter: "",
+    };
 
   changeFilter = (e) => {
     this.setState({ filter: e.target.value });
@@ -46,12 +46,24 @@ export default class App extends Component {
     }));
   };
 
+  componentDidUpdate(prevProps, prevState) {
+    localStorage.setItem("contact", JSON.stringify(this.state.contacts));
+  }
+
+  componentDidMount() {
+    const contact = localStorage.getItem("contact");
+
+    if (contact) {
+      const convrtArr = JSON.parse(contact);
+      this.setState(() => ({
+        contacts: [...convrtArr],
+      }));
+    }
+  }
+
   render() {
     const { contacts, filter } = this.state;
-
     const filteredContacts = filterContacts(contacts, filter);
-
-    console.log(filter);
 
     return (
       <>
@@ -60,7 +72,7 @@ export default class App extends Component {
         </Section>
 
         <Section title="Contacts">
-          {(contacts.length > 2 || filter) && (
+          {(contacts.length > 1 || filter) && (
             <SearchForm value={filter} onChangeFilter={this.changeFilter} />
           )}
           <Contacts

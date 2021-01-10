@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/css/main.9f23b360.chunk.css",
+    "main.js": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/main.d0da511e.chunk.js",
+    "main.js.map": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/main.d0da511e.chunk.js.map",
+    "runtime-main.js": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/runtime-main.0e5e6f9a.js",
+    "runtime-main.js.map": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/runtime-main.0e5e6f9a.js.map",
+    "static/js/2.85b62ed5.chunk.js": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/2.85b62ed5.chunk.js",
+    "static/js/2.85b62ed5.chunk.js.map": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/2.85b62ed5.chunk.js.map",
+    "index.html": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/index.html",
+    "static/css/main.9f23b360.chunk.css.map": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/css/main.9f23b360.chunk.css.map",
+    "static/js/2.85b62ed5.chunk.js.LICENSE.txt": "/goit-fe-course/react-homework/goit-react-hw-03/phonebook/build/static/js/2.85b62ed5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e5e6f9a.js",
+    "static/js/2.85b62ed5.chunk.js",
+    "static/css/main.9f23b360.chunk.css",
+    "static/js/main.d0da511e.chunk.js"
+  ]
+}

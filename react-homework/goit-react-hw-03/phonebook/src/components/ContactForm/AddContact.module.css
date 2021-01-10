@@ -13,4 +13,19 @@
 .formInput {
 	display: block;
 	margin: 4px 10px;
+	/* position: relative; */
+}
+
+label:nth-of-type(2n):hover::after {
+content: " nnn-nnn-nnnn  (nnn)nnn-nnnn  (nnn) nnn-nnnn";
+width: 110px;
+position: absolute;
+left: 250px;
+top: 160px;
+font-weight: 300;
+color: #000000;
+font-size: 12px;
+z-index: 1;
+border-left: 1px solid rgba(0, 0, 0, 0.493);
+padding-left: 3px;
 }

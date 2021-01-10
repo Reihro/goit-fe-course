@@ -5,7 +5,7 @@ import ErrorNotification from "../Tools/ErrorNotification";
 
 const rules = {
   name: [validations.required(), validations.regex(["^[a-zA-Zа-яА-Я]+"])],
-  number: [validations.required(), validations.regex([/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/])],
+  number: [validations.required(), validations.regex([/^(\([0-9]{3}\)\s*|[0-9]{3}\-)[0-9]{3}-[0-9]{4}$/])],
 };
 
 const messages = {
